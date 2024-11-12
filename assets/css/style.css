@@ -1,10 +1,41 @@
-.header{
+.container-header{
     background-color: #ffffff;
-    height: 10vh;
+    height: 15vh;
     padding: 0 24px;
+    display: flex;
 }
 
 .main{
     background-color: #f1f1f1b6;
-    height: 90vh;
+    height: 85vh;
+}
+
+.container-logo{
+    padding: 0 0 0 30px;
+}
+
+.logo{
+    width: 150px;
+    height: 30px;
+    background-size: cover;
+}
+
+.menu-hamburguer{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.menu-hamburguer .linha{
+    width: 25px;
+    height: 3px;
+    background-color: #000000;
+    margin: 4px 0;
+}
+
+.esquerda{
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end; 
 }
