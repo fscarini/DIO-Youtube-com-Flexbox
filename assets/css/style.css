@@ -1,6 +1,6 @@
 .container-header{
     background-color: #ffffff;
-    height: 15vh;
+    height: 10vh;
     padding: 0 24px;
     display: flex;
     justify-content: space-between;
@@ -8,7 +8,7 @@
 
 .main{
     background-color: #f1f1f1b6;
-    height: 85vh;
+    height: 107vh;
 }
 
 .container-logo{
@@ -36,28 +36,30 @@
     margin: 4px 0;
 }
 
-.esquerda{
-    display: flex;
-    align-items: center;  
-}
-
-.central{
-    height: 15vh;
+.header-item{
+    height: 10vh;
     display: flex;
     align-items: center;
+}  
+
+.barra-pesquisar{
+    background-color: #ffffff;
+    width: 330px;
+    height: 40px;
+    border: 1px solid #CCCCCC;
+    padding: 8px 12px;
+    border-right: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-.direita{
-    height: 15vh;
+.botao-pesquisar{
+    width: 70px;
+    height: 40px;
+    background-color: #F8F8F8;
+    border: 1px solid #CCCCCC;
     display: flex;
     align-items: center;
-}
-
-.icone{
-    width: 34px;
-    height: 34px;
-    margin: 0 16px;
-    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .pesquisar{
@@ -67,25 +69,115 @@
     background-size: cover;
 }
 
-.botao-pesquisar{
-    width: 70px;
-    height: 40px;
-    background-color: rgb(191, 191, 191);
-    border: 1px solid black;
-    display: flex;
-    align-items: center;
-}
-
-.barra-pesquisar{
-    background-color:rgb(239, 237, 237);
-    height: 40px;
-    border: 1px solid black;
-    padding: 8px 12px;
-    border-right: none;
+.icone{
+    width: 34px;
+    height: 34px;
+    margin: 0 16px;
+    cursor: pointer;
 }
 
 .avatar{
     background-size: cover;
     border-radius: 50%;
     border: 1px solid black;
+}
+
+.container-main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.video-container{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+}
+
+.dados-canal{
+    margin-top: 15px;
+    display: flex;
+}
+
+.imagem-video{
+    width: 976px;
+    height: 537px;
+}
+
+.avatar-canal{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.inscrever-botao{
+    width: 159px;
+    height: 40px;
+    background-color: #CC0000;
+    color: #ffffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5%;
+}
+
+.titulo-video{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nome-canal{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.inscritos{
+    font-size: 14px;
+    width: 120px;
+    font-weight: 400;
+}
+
+.icone-video{
+    display: flex;
+    height: 34px;
+    margin: 0 16px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.icone-video p{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.visualizacao{
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.descricao{
+    font-size: 14px;
+    font-weight: 400;  
+    width: 620px;
+}
+
+.secao-videos{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.video{
+    display: flex;
+    margin-bottom: 15px;
+    width: 32vw;
+}
+
+.video-info{
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
 }

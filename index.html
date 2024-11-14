@@ -10,7 +10,7 @@
 
 <body>
     <header class="container-header">
-        <section class="esquerda">
+        <section class="header-item">
             <div class="menu-hamburguer">
                 <div class="linha"></div>
                 <div class="linha"></div>
@@ -21,7 +21,7 @@
             </figure>
         </section>
         <section>
-            <figure class="central">
+            <figure class="header-item">
                 <input type="text" class="barra-pesquisar">
                 <button class="botao-pesquisar" type="submit">
                     <img src="assets/img/pesquisar.png" alt="Botão pesquisar" class="pesquisar">
@@ -29,7 +29,7 @@
             </figure>
         </section>
         <section>
-            <figure class="direita">
+            <figure class="header-item">
                 <img src="assets/img/camera.png" alt="Upload de vídeo" class="camera icone">
                 <img src="assets/img/sino.png" alt="Notificações" class="sino icone">
                 <img src="assets/img/avatar.jpg" alt="Avatar" class="avatar icone">
@@ -37,98 +37,84 @@
         </section>
     </header>
 
-    <main class="container main">
-        <section class="video-principal">
-            <img src="" alt="">
-            <h1></h1>
+    <main class="container-main main">
+        <section class="video-container">
+            <div class="video-principal">
+                <img src="assets/img/video-principal.png" alt="Video principal" class="imagem-video">
+                <h1 class="titulo-video">Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com HTML e CSS</h1>
+            </div>
             <div class="dados-canal container">
-                <img src="" alt="">
-                <p></p>
-                <p></p>
-                <button></button>
-                <div class="like">
-                    <img src="" alt="">
-                    <p></p>
+                <img src="assets/img/avatar-canal.jpg" alt="Canal" class="avatar-canal">
+                <div class="informacoes-canal">
+                    <p class="nome-canal">DIO</p>
+                    <p class="inscritos">83,5 mil inscritos</p>
                 </div>
-                <div class="deslike">
-                    <img src="" alt="">
-                    <p></p>
+                <button type="submit" class="inscrever-botao">Inscreva-se</button>
+                <div class="like icone-video">
+                    <img src="assets/img/like.png" alt="Like" class="icone">
+                    <p>2 mil</p>
                 </div>
-                <div class="share">
-                    <img src="" alt="">
-                    <p></p>
+                <div class="deslike icone-video">
+                    <img src="assets/img/deslike.png" alt="Deslike" class="icone">
+                    <p>Não gostei</p>
                 </div>
-                <div class="download">
-                    <img src="" alt="">
-                    <p></p>
+                <div class="compartilhar icone-video">
+                    <img src="assets/img/compartilhar.png" alt="Compartilhar" class="icone">
+                    <p>Compartilhar</p>
+                </div>
+                <div class="download icone-video">
+                    <img src="assets/img/download.png" alt="Download" class="icone">
+                    <p>Baixar</p>
                 </div>
             </div>
-            <p class="visualizacao"></p>
-            <p class="descricao"></p>
+            <p class="visualizacao">28.418 visualizações  Transmitido ao vivo em 23 ago. de 2022</p>
+            <p class="descricao">Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS. Para isso, criaremos uma landing page com a temática da série Stranger Things, a qual contará com a implementação de um theme switcher (light e dark) para explorarmos os mistérios do mundo invertido.</p>
         </section>
         <aside class="secao-videos">
             <div class="video" id="video1">
-                <img src="" alt="">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <img src="assets/img/video1.png" alt="thumb1">
+                <div class="video-info">
+                    <p><strong>Geração Tech Unimed - BH - Ciência de Dados</strong></p>
+                    <p>DigitalInnovationOne</p>
+                    <p>2,1 mil visualizações</p>
+                    <p>Transmitido há 2 dias</p>
+                </div>
             </div>
             <div class="video" id="video2">
-                <img src="" alt="">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <img src="assets/img/video2.png" alt="thumb2">
+                <div class="video-info">
+                    <p><strong>Scrum Talks</strong></p>
+                    <p>DigitalInnovationOne</p>
+                    <p>1,6 mil visualizações</p>
+                    <p>Transmitido há 3 dias</p>
+                </div>
             </div>
             <div class="video" id="video3">
-                <img src="" alt="">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <img src="assets/img/video3.png" alt="thumb3">
+                <div class="video-info">
+                    <p><strong>Machine Learning Avançado - Fast Track</strong></p>
+                    <p>DigitalInnovationOne</p>
+                    <p>1,7 mil visualizações</p>
+                    <p>Transmitido há 4 dias</p>
+                </div>
             </div>
             <div class="video" id="video4">
-                <img src="" alt="">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <img src="assets/img/video4.png" alt="thumb4">
+                <div class="video-info">
+                    <p><strong>Global Skills #2 - Project Planning</strong></p>
+                    <p>DigitalInnovationOne</p>
+                    <p>971 visualizações</p>
+                    <p>Transmitido há 5 dias</p>
+                </div>
             </div>
             <div class="video" id="video5">
-                <img src="" alt="">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-            </div>
-            <div class="video" id="video6">
-                <img src="" alt="">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-            </div>
-            <div class="video" id="video7">
-                <img src="" alt="">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-            </div>
-            <div class="video" id="video8">
-                <img src="" alt="">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-            </div>
-            <div class="video" id="video9">
-                <img src="" alt="">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <img src="assets/img/video5.png" alt="thumb5">
+                <div class="video-info">
+                    <p><strong>Como aprender a programar Python do ZERO</strong></p>
+                    <p>DigitalInnovationOne</p>
+                    <p>711 visualizações</p>
+                    <p>Transmitido há 6 dias</p>
+                </div>
             </div>
         </aside>
     </main>
