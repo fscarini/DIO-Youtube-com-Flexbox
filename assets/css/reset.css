@@ -118,12 +118,6 @@ table {
   border-spacing: 0;
 }
 
-/* Adiciona estilo de acessibilidade para foco visível */
-:focus {
-  outline: 2px dashed #000;
-  outline-offset: 2px;
-}
-
 /* Remove a decoração em links focados para acessibilidade */
 a:focus {
   outline: none;
